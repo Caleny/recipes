@@ -3,34 +3,58 @@ h1
     font-family: 'Lucida Handwriting', cursive;
     background-color: rgb(255, 178, 178);
     text-align: center;
+    font-size: 50px;
+}
+
+.Description
+{
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
 }
 
 h2
 {
     font-family: 'Brush Script MT', cursive;
+    font-size: 40px;
 }
 
-li
+ol, ul
 {
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 h1.title
 {
-    font-size: 50px;
+    font-weight: bold;
 }
 
 h2.headings
 {
-    font-size: 40px;
+    font-weight: lighter;
 }
 
-li .instruction
+.Instructions
 {
-
+    background-color: rgb(255, 253, 117);
+    color: rgb(172, 0, 0);
 }
 
-li .ingredients
+.Ingredients
 {
+    background-color: rgb(141, 255, 166);
+    color: rgb(76, 0, 255);
+}
 
+img
+{
+    width: 500px;
+    height: auto;
+}
+
+.Description .Credit
+{
+    font-size: 25px;
+    font-weight: bold;
 }
